@@ -63,4 +63,4 @@ def stock():
     return render_template("stock.html", symbols = symbols)
 
 
-app.run()
+app.run(debug=True, host='0.0.0.0')
